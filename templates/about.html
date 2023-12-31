@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Developer Jeevan</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS styles -->
+    <style>
+        body {
+            padding-top: 0px; /* Adjusted for fixed navbar */
+            background-color: #f8f9fa; /* Light gray background color */
+            color: #343a40; /* Dark text color */
+        }
+
+        .navbar {
+            background-color: #343a40; /* Navbar background color */
+            border-bottom: 4px solid #17a2b8; /* Navbar border color */
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #ffffff; /* Navbar text color */
+            font-weight: bold; /* Bold text for better visibility */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #17a2b8; /* Navbar text color on hover */
+        }
+
+        .navbar-toggler-icon {
+            background-color: #ffffff; /* Navbar toggle icon color */
+        }
+
+        /* About section styling */
+        #about {
+            background: url('https://source.unsplash.com/1600x900/?technology') center/cover no-repeat;
+           /* Light text color for better readability on a dark background */
+            padding: 100px 0; /* Adjust the padding as needed */
+            text-align: center;
+            text-emphasis-color: red;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        #details {
+            background-color: #ffffff; /* White background for details section */
+            padding: 50px 0;
+        }
+
+        #details h3 {
+            color: #343a40; /* Dark text color */
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        #details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #details li {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Developer Jeevan </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: red;" href="/home/about">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline d-flex ml-auto" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I am a passionate developer with a focus on creating meaningful and impactful web applications. My goal is to leverage technology to solve real-world problems and enhance user experiences.
+            </p>
+            <p>
+                With a strong foundation in web development, I am proficient in front-end and back-end technologies. I enjoy taking on challenges, learning new technologies, and collaborating with other creative minds.
+            </p>
+            <p>
+                Let's build something amazing together! Feel free to explore my projects and get in touch if you have any questions or collaboration opportunities.
+            </p>
+        </div>
+    </div>
+
+    <!-- Details section -->
+    <div id="details">
+        <div class="container">
+            <h3>Details</h3>
+            <ul>
+                <li><strong>Name:</strong> Developer Jeevan</li>
+                <li><strong>Location:</strong> Your City, Country</li>
+                <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, etc.</li>
+                <li><strong>Experience:</strong> X years in web development</li>
+                <!-- Add more details as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
